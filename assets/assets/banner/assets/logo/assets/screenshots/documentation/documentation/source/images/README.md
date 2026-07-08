@@ -1,3 +1,0 @@
-# Images
-
-Additional project images.
