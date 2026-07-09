@@ -50,3 +50,64 @@ BreakTrack Pro provides a complete employee break management experience focused 
 | ⚡ Google Apps Script Automation | Automates business logic and operational workflows. |
 | ☁ Google Sheets Database | Uses Google Sheets as a lightweight cloud database. |
 | 📋 Reporting | Stores historical information for future analysis. |
+
+---
+
+# ⚙ Technology Stack
+
+| Layer | Technology |
+|--------|------------|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Google Apps Script |
+| Database | Google Sheets |
+| Charts | Google Charts |
+| Version Control | Git & GitHub |
+| Documentation | Markdown |
+| Design | Canva |
+
+---
+
+# 📁 Project Structure
+
+text
+BreakTrack-Pro
+│
+├── assets/
+│   ├── banner/
+│   ├── logo/
+│   ├── screenshots/
+│   └── icons/
+│
+├── documentation/
+│
+├── images/
+│
+├── source/
+│   ├── Code.gs
+│   ├── Index.html
+│   ├── Styles.html
+│   └── JavaScript.html
+│
+└── README.md
+
+---
+
+# 📦 Installation
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/sugheiry-alcala/BreakTrack-Pro.git
+```
+
+2. Open the project in Visual Studio Code.
+
+3. Create a Google Apps Script project.
+
+4. Copy the source files into your Apps Script project.
+
+5. Connect the project to your Google Sheets database.
+
+6. Deploy the application as a Web App.
+
+7. Start managing employee breaks.
