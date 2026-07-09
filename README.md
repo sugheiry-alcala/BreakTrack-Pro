@@ -69,7 +69,7 @@ BreakTrack Pro provides a complete employee break management experience focused 
 
 # 📁 Project Structure
 
-text
+```text
 BreakTrack-Pro
 │
 ├── assets/
@@ -89,6 +89,7 @@ BreakTrack-Pro
 │   └── JavaScript.html
 │
 └── README.md
+```
 
 ---
 
