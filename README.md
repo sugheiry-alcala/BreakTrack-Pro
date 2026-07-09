@@ -31,3 +31,22 @@ Employee Break Management Platform
 BreakTrack Pro is a modern Employee Break Management Platform designed to automate employee break tracking, improve operational control, and provide real-time analytics through an intuitive dashboard.
 
 Originally inspired by a real operational challenge, the project evolved into a complete digital solution focused on automation, compliance monitoring, and operational efficiency.
+
+---
+
+# 🚀 Features
+
+BreakTrack Pro provides a complete employee break management experience focused on operational efficiency, compliance, and real-time visibility.
+
+| Feature | Description |
+|----------|-------------|
+| 👤 Employee Identification | Instantly validates employee information before any operation. |
+| ⏱ Break Registration | Records break start and end times accurately. |
+| 📊 Real-Time Dashboard | Displays operational metrics and key performance indicators. |
+| 📈 Performance Analytics | Visualizes break behavior through charts and statistics. |
+| ⚠ Compliance Monitoring | Detects delayed returns and policy violations automatically. |
+| 🏆 Employee Ranking | Highlights operational performance and compliance levels. |
+| 🔐 Administrator Module | Provides secure administration and configuration features. |
+| ⚡ Google Apps Script Automation | Automates business logic and operational workflows. |
+| ☁ Google Sheets Database | Uses Google Sheets as a lightweight cloud database. |
+| 📋 Reporting | Stores historical information for future analysis. |
