@@ -79,9 +79,7 @@ BreakTrack-Pro
 │   └── icons/
 │
 ├── documentation/
-│
 ├── images/
-│
 ├── source/
 │   ├── Code.gs
 │   ├── Index.html
@@ -90,8 +88,6 @@ BreakTrack-Pro
 │
 └── README.md
 ```
-
----
 
 # 📦 Installation
 
