@@ -114,28 +114,51 @@ git clone https://github.com/sugheiry-alcala/BreakTrack-Pro.git
 ![Home](assets/screenshots/home.png)
 
 ---
+---
 
-## Dashboard
+# 📸 Screenshots
 
-> Real-time operational metrics and compliance monitoring.
+Explore the main modules of **BreakTrack Pro**, designed to provide an intuitive user experience while improving operational efficiency.
+
+---
+
+## 🏠 Home
+
+The home screen allows employees to quickly identify themselves and register their break with a clean and user-friendly interface.
+
+> **Purpose:** Fast employee identification and break registration.
+
+![Home](assets/screenshots/home.png)
+
+---
+
+## 📊 Dashboard
+
+The dashboard provides real-time operational metrics, compliance indicators, and performance analytics for supervisors and managers.
+
+> **Purpose:** Monitor operations and support data-driven decision making.
 
 ![Dashboard](assets/screenshots/dashboard.png)
 
 ---
 
-## Ranking
+## 🏆 Employee Ranking
 
-> Performance ranking based on operational indicators.
+The ranking module highlights employee performance based on operational indicators and compliance metrics.
+
+> **Purpose:** Encourage operational excellence through measurable performance.
 
 ![Ranking](assets/screenshots/ranking.png)
 
 ---
 
-## Administration
+## ⚙ Administration
 
-> Administrative tools for configuration and management.
+The administration panel centralizes configuration, employee management, and system settings.
 
-![Administration](assets/screenshots/administrator.png)
+> **Purpose:** Secure administration and configuration management.
+
+![Administrator](assets/screenshots/administrator.png)
 
 5. Connect the project to your Google Sheets database.
 
