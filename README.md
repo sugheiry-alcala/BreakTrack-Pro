@@ -103,6 +103,40 @@ git clone https://github.com/sugheiry-alcala/BreakTrack-Pro.git
 
 4. Copy the source files into your Apps Script project.
 
+
+
+# 📸 Screenshots
+
+## Home
+
+> Clean and intuitive interface designed for fast employee identification.
+
+![Home](assets/screenshots/home.png)
+
+---
+
+## Dashboard
+
+> Real-time operational metrics and compliance monitoring.
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## Ranking
+
+> Performance ranking based on operational indicators.
+
+![Ranking](assets/screenshots/ranking.png)
+
+---
+
+## Administration
+
+> Administrative tools for configuration and management.
+
+![Administration](assets/screenshots/administrator.png)
+
 5. Connect the project to your Google Sheets database.
 
 6. Deploy the application as a Web App.
