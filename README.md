@@ -148,10 +148,15 @@ Business logic is handled by Google Apps Script, where all operational rules are
 
 Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
 ---
-HTML
-CSS
-JavaScript
-Google Apps Script
-Google Sheets
+
+## 🌍 Behind the Project
+
+BreakTrack Pro represents the public demonstration version of a solution originally developed to address a real operational challenge in employee break management.
+
+The original implementation was created to replace manual break tracking with a structured digital workflow capable of improving operational visibility, automating business rules, and providing real-time performance insights for supervisors and operational teams.
+
+This repository preserves the architecture, workflow, and core functionality of the original solution while intentionally omitting organization-specific information. Its purpose is to showcase the technical design, development approach, and problem-solving process behind the platform.
+
+Beyond the technologies used, BreakTrack Pro reflects a software engineering mindset focused on understanding operational needs, designing practical solutions, and building systems that create measurable value through automation and data-driven decision-making.
 ---
 
