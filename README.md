@@ -40,7 +40,16 @@ In addition to daily break registration, BreakTrack Pro provides operational das
 This repository presents the public demonstration version of the platform, preserving the architecture, workflow, and core functionality of the original operational solution while omitting organization-specific information.
 
 ---
+## 🎯 The Challenge
 
+In many retail environments, employee break management is often handled through manual processes, making it difficult to monitor break durations, enforce company policies, and maintain accurate operational records.
+
+Without a centralized system, supervisors face limited visibility into active breaks, delayed returns, compliance levels, and historical data. This lack of real-time information can lead to inconsistent monitoring, reduced operational efficiency, and limited support for informed decision-making.
+
+BreakTrack Pro was created to address these challenges by replacing manual tracking with a structured digital workflow that automates break registration, enforces business rules, and provides real-time operational insights through centralized reporting and performance indicators.
+
+
+---
 # 🚀 Features
 
 BreakTrack Pro provides a complete employee break management experience focused on operational efficiency, compliance, and real-time visibility.
