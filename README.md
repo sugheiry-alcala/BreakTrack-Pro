@@ -283,6 +283,41 @@ BreakTrack-Pro/
 | **README.md** | Main project documentation providing an overview of the platform, architecture, features, and usage instructions. |
 
 
+## 📸 Screenshots
+
+### 🏠 Main Interface
+
+The main interface provides a simple and intuitive workflow for employees to register their breaks. Users can identify themselves, verify their information, and record the start or end of their break in just a few steps.
+
+> *(Insert main interface screenshot here)*
+
+---
+
+### 📊 Operations Dashboard
+
+The Operations Dashboard provides supervisors with real-time operational visibility, including daily break activity, active employees on break, compliance indicators, and performance metrics.
+
+> *(Insert dashboard screenshot here)*
+
+---
+
+### 🏆 Performance Ranking
+
+The Performance Ranking automatically evaluates employee compliance based on completed break records, helping supervisors identify top performers and monitor operational consistency.
+
+> *(Insert ranking screenshot here)*
+
+---
+
+### 📋 Break History
+
+The Break History stores every registered operation, creating a complete audit trail that supports operational traceability and historical analysis.
+
+> *(Insert break history screenshot here)*
+
+
+
+
 
 ## 👩‍💻 About the Developer
 
