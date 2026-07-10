@@ -112,4 +112,38 @@ Through integrated dashboards, historical records, and automated rankings, super
 - Manage system configuration.
 
 ---
+## 🏗️ Architecture
 
+BreakTrack Pro follows a lightweight multi-layer architecture that separates the user interface, business logic, and data management into independent components.
+
+```text
+┌───────────────────────────────┐
+│        Web Interface          │
+│   HTML • CSS • JavaScript     │
+└──────────────┬────────────────┘
+               │
+               │ google.script.run
+               ▼
+┌───────────────────────────────┐
+│     Google Apps Script        │
+│    Business Logic Layer       │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│        Google Sheets          │
+│  Operational Data Storage     │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│ Dashboard • Logs • Ranking    │
+│ Configuration & Reports        │
+└───────────────────────────────┘
+```
+
+The presentation layer provides an intuitive interface for employees to register their breaks and interact with the platform.
+
+Business logic is handled by Google Apps Script, where all operational rules are executed, including employee validation, duplicate prevention, break status verification, duration calculation, compliance classification, statistics generation, and automatic ranking updates.
+
+Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
