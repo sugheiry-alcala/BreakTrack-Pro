@@ -188,6 +188,88 @@ The platform follows a lightweight architecture where the presentation layer, bu
 
 This approach minimizes infrastructure requirements while providing real-time processing, centralized data management, and easy deployment within Google Workspace.
 
+## 🔄 System Workflow
+
+The following workflow illustrates how BreakTrack Pro processes an employee break from registration to operational reporting.
+
+```text
+Employee
+    │
+    ▼
+Enter Employee ID
+    │
+    ▼
+Employee Validation
+    │
+    ├── Invalid ID
+    │      │
+    │      ▼
+    │   Display Error Message
+    │
+    ▼
+Employee Information Loaded
+    │
+    ▼
+Start Break
+    │
+    ▼
+Business Rule Validation
+    │
+    ├── Active Break
+    ├── Duplicate Registration
+    └── Valid Request
+    │
+    ▼
+Break Registered
+    │
+    ▼
+Employee Returns
+    │
+    ▼
+End Break
+    │
+    ▼
+Duration Calculation
+    │
+    ▼
+Compliance Classification
+    │
+    ├── 🟢 Compliant
+    ├── 🟡 Tolerance
+    └── 🔴 Exceeded
+    │
+    ▼
+Update Logs
+    │
+    ▼
+Update Dashboard
+    │
+    ▼
+Update Performance Ranking
+```
+
+Every completed operation automatically updates the operational database, dashboard metrics, historical records, and employee performance rankings, ensuring that supervisors always have access to accurate and up-to-date information.
+
+BreakTrack-Pro/
+│
+├── assets/
+│   ├── banner/
+│   ├── images/
+│   └── screenshots/
+│
+├── docs/
+│   ├── installation/
+│   ├── user-guide/
+│   └── technical/
+│
+├── src/
+│   ├── index.html
+│   ├── Code.gs
+│   └── appsscript.json
+│
+├── README.md
+└── LICENSE
+
 
 
 
