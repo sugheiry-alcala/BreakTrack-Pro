@@ -48,136 +48,68 @@ Without a centralized system, supervisors face limited visibility into active br
 
 BreakTrack Pro was created to address these challenges by replacing manual tracking with a structured digital workflow that automates break registration, enforces business rules, and provides real-time operational insights through centralized reporting and performance indicators.
 
-
 ---
-# 🚀 Features
+## 💡 The Solution
 
-BreakTrack Pro provides a complete employee break management experience focused on operational efficiency, compliance, and real-time visibility.
+BreakTrack Pro transforms employee break management into a structured, automated, and traceable process by combining an intuitive web interface with centralized business logic and real-time operational reporting.
 
-| Feature | Description |
-|----------|-------------|
-| 👤 Employee Identification | Instantly validates employee information before any operation. |
-| ⏱ Break Registration | Records break start and end times accurately. |
-| 📊 Real-Time Dashboard | Displays operational metrics and key performance indicators. |
-| 📈 Performance Analytics | Visualizes break behavior through charts and statistics. |
-| ⚠ Compliance Monitoring | Detects delayed returns and policy violations automatically. |
-| 🏆 Employee Ranking | Highlights operational performance and compliance levels. |
-| 🔐 Administrator Module | Provides secure administration and configuration features. |
-| ⚡ Google Apps Script Automation | Automates business logic and operational workflows. |
-| ☁ Google Sheets Database | Uses Google Sheets as a lightweight cloud database. |
-| 📋 Reporting | Stores historical information for future analysis. |
+Employees can quickly register the start and end of their breaks using their employee identification number. Every operation is automatically validated to prevent duplicate records, multiple active breaks, and unauthorized actions, ensuring data consistency throughout the workflow.
+
+As each break is completed, the platform calculates its duration, classifies the result according to predefined compliance rules, updates operational statistics, and generates performance indicators without requiring manual intervention.
+
+Through integrated dashboards, historical records, and automated rankings, supervisors gain immediate visibility into daily operations, allowing them to monitor compliance, identify exceptions, and support operational decision-making with reliable, real-time information.
 
 ---
 
-# ⚙ Technology Stack
 
-| Layer | Technology |
-|--------|------------|
-| Frontend | HTML5, CSS3, JavaScript |
-| Backend | Google Apps Script |
-| Database | Google Sheets |
-| Charts | Google Charts |
-| Version Control | Git & GitHub |
-| Documentation | Markdown |
-| Design | Canva |
+## ✨ Key Features
 
----
+### 🔍 Employee Identification
 
-# 📁 Project Structure
+- Search employees using their identification number.
+- Display employee information before any operation is performed.
+- Validate registered employees against the centralized database.
 
-```text
-BreakTrack-Pro
-│
-├── assets/
-│   ├── banner/
-│   ├── logo/
-│   ├── screenshots/
-│   └── icons/
-│
-├── documentation/
-├── images/
-├── source/
-│   ├── Code.gs
-│   ├── Index.html
-│   ├── Styles.html
-│   └── JavaScript.html
-│
-└── README.md
-```
+### ☕ Break Registration
 
-# 📦 Installation
+- Register break start and end events.
+- Record timestamps automatically.
+- Calculate break duration in real time.
 
-1. Clone the repository.
+### ✅ Business Rule Validation
 
-```bash
-git clone https://github.com/sugheiry-alcala/BreakTrack-Pro.git
-```
+- Prevent duplicate break registrations.
+- Prevent multiple active breaks.
+- Validate employee records before processing.
+- Apply compliance rules automatically.
 
-2. Open the project in Visual Studio Code.
+### 📊 Operational Dashboard
 
-3. Create a Google Apps Script project.
+- Monitor daily break activity.
+- Track employees currently on break.
+- View compliance percentages.
+- Identify tolerance and exceeded cases.
+- Access real-time operational metrics.
 
-4. Copy the source files into your Apps Script project.
+### 🏆 Performance Ranking
 
+- Generate automatic employee rankings.
+- Track compliance history.
+- Calculate individual performance indicators.
+- Highlight top-performing employees.
 
+### 📁 Historical Records
 
-# 📸 Screenshots
+- Store every registered break.
+- Maintain operational traceability.
+- Support historical analysis and reporting.
 
-## Home
+### ⚙️ Administration
 
-> Clean and intuitive interface designed for fast employee identification.
-
-![Home](assets/screenshots/home.png)
-
----
----
-
-# 📸 Screenshots
-
-Explore the main modules of **BreakTrack Pro**, designed to provide an intuitive user experience while improving operational efficiency.
+- Access operational dashboards.
+- Review historical records.
+- Monitor performance rankings.
+- Manage system configuration.
 
 ---
 
-## 🏠 Home
-
-The home screen allows employees to quickly identify themselves and register their break with a clean and user-friendly interface.
-
-> **Purpose:** Fast employee identification and break registration.
-
-![Home](assets/screenshots/home.png)
-
----
-
-## 📊 Dashboard
-
-The dashboard provides real-time operational metrics, compliance indicators, and performance analytics for supervisors and managers.
-
-> **Purpose:** Monitor operations and support data-driven decision making.
-
-![Dashboard](assets/screenshots/dashboard.png)
-
----
-
-## 🏆 Employee Ranking
-
-The ranking module highlights employee performance based on operational indicators and compliance metrics.
-
-> **Purpose:** Encourage operational excellence through measurable performance.
-
-![Ranking](assets/screenshots/ranking.png)
-
----
-
-## ⚙ Administration
-
-The administration panel centralizes configuration, employee management, and system settings.
-
-> **Purpose:** Secure administration and configuration management.
-
-![Administrator](assets/screenshots/administrator.png)
-
-5. Connect the project to your Google Sheets database.
-
-6. Deploy the application as a Web App.
-
-7. Start managing employee breaks.
