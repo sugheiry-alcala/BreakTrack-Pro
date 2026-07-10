@@ -147,3 +147,11 @@ The presentation layer provides an intuitive interface for employees to register
 Business logic is handled by Google Apps Script, where all operational rules are executed, including employee validation, duplicate prevention, break status verification, duration calculation, compliance classification, statistics generation, and automatic ranking updates.
 
 Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
+---
+HTML
+CSS
+JavaScript
+Google Apps Script
+Google Sheets
+---
+
