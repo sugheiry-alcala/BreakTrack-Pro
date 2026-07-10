@@ -26,11 +26,17 @@ Employee Break Management Platform
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
-BreakTrack Pro is a modern Employee Break Management Platform designed to automate employee break tracking, improve operational control, and provide real-time analytics through an intuitive dashboard.
+BreakTrack Pro is an employee break management platform designed to digitize, automate, and simplify the operational control of employee breaks.
 
-Originally inspired by a real operational challenge, the project evolved into a complete digital solution focused on automation, compliance monitoring, and operational efficiency.
+The platform was created to replace manual tracking processes with a centralized digital workflow that improves operational visibility, ensures consistent application of business rules, and provides real-time information for supervisors and operational leaders.
+
+Employees can quickly register the start and end of their breaks through an intuitive web interface, while the system automatically validates each operation, calculates break duration, classifies compliance status, and records every activity for future analysis.
+
+In addition to daily break registration, BreakTrack Pro provides operational dashboards, historical records, automated rankings, and performance indicators that support monitoring, traceability, and data-driven decision making.
+
+This repository presents the public demonstration version of the platform, preserving the architecture, workflow, and core functionality of the original operational solution while omitting organization-specific information.
 
 ---
 
