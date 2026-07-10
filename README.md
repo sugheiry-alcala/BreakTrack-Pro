@@ -149,6 +149,7 @@ Business logic is handled by Google Apps Script, where all operational rules are
 Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
 ---
 
+
 ## 🌍 Behind the Project
 
 BreakTrack Pro represents the public demonstration version of a solution originally developed to address a real operational challenge in employee break management.
@@ -159,4 +160,49 @@ This repository preserves the architecture, workflow, and core functionality of 
 
 Beyond the technologies used, BreakTrack Pro reflects a software engineering mindset focused on understanding operational needs, designing practical solutions, and building systems that create measurable value through automation and data-driven decision-making.
 ---
+## 🚀 Beyond the Code
 
+BreakTrack Pro is more than a software demonstration.
+
+It represents the process of identifying a real operational challenge, understanding business needs, designing a practical solution, and transforming a manual workflow into a structured digital platform.
+
+This project reflects an engineering approach where technology is not the objective itself, but the tool used to solve meaningful problems, improve operational efficiency, and support better decision-making through reliable data.
+
+The public version shared in this repository is intended to demonstrate not only the technical implementation, but also the product thinking, system design, and software engineering principles behind the solution.
+
+## ⚙️ Technology Stack
+
+BreakTrack Pro was built using technologies that provide rapid development, seamless integration with Google Workspace, and a lightweight deployment model suitable for operational environments.
+
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Structures the user interface and application layout. |
+| **CSS3** | Provides responsive styling and a clean, intuitive user experience. |
+| **JavaScript (ES6)** | Handles client-side interactions, user events, and communication with the backend. |
+| **Google Apps Script** | Implements the business logic, validations, operational rules, and server-side processing. |
+| **Google Sheets** | Acts as the centralized data repository for employee information, operational logs, dashboards, rankings, and system configuration. |
+
+### Design Approach
+
+The platform follows a lightweight architecture where the presentation layer, business logic, and operational data are clearly separated.
+
+This approach minimizes infrastructure requirements while providing real-time processing, centralized data management, and easy deployment within Google Workspace.
+
+
+
+
+
+
+
+## 👩‍💻 About the Developer
+
+Hi, I'm **Sugheiry Alcalá**, a Software Developer and Data & AI Analyst passionate about building technology that solves real-world operational challenges.
+
+My work combines software development, data analysis, and product thinking to create practical solutions that improve business processes and support better decision-making.
+
+I believe technology creates the greatest impact when it is designed around people, processes, and real business needs.
+
+If you'd like to connect or learn more about my work:
+
+- 💼 LinkedIn: ...
+- 💻 GitHub: ...
