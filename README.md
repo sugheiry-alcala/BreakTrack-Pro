@@ -188,7 +188,23 @@ The platform follows a lightweight architecture where the presentation layer, bu
 
 This approach minimizes infrastructure requirements while providing real-time processing, centralized data management, and easy deployment within Google Workspace.
 
+## ⚙️ Technology Stack
 
+BreakTrack Pro was built using technologies that provide rapid development, seamless integration with Google Workspace, and a lightweight deployment model suitable for operational environments.
+
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Structures the user interface and application layout. |
+| **CSS3** | Provides responsive styling and a clean, intuitive user experience. |
+| **JavaScript (ES6)** | Handles client-side interactions, user events, and communication with the backend. |
+| **Google Apps Script** | Implements the business logic, validations, operational rules, and server-side processing. |
+| **Google Sheets** | Acts as the centralized data repository for employee information, operational logs, dashboards, rankings, and system configuration. |
+
+### Design Approach
+
+The platform follows a lightweight architecture where the presentation layer, business logic, and operational data are clearly separated.
+
+This approach minimizes infrastructure requirements while providing real-time processing, centralized data management, and easy deployment within Google Workspace.
 
 
 
