@@ -250,29 +250,37 @@ Update Performance Ranking
 
 Every completed operation automatically updates the operational database, dashboard metrics, historical records, and employee performance rankings, ensuring that supervisors always have access to accurate and up-to-date information.
 
+## 📂 Project Structure
+
+The repository is organized to separate source code, project documentation, and visual assets, making it easier to navigate, maintain, and extend.
+
+```text
 BreakTrack-Pro/
 │
-├── assets/
-│   ├── banner/
-│   ├── images/
-│   └── screenshots/
+├── 📁 assets/
+│   ├── 🖼️ banner/
+│   ├── 🎨 icons/
+│   ├── 🅱️ logo/
+│   └── 📸 screenshots/
 │
-├── docs/
-│   ├── installation/
-│   ├── user-guide/
-│   └── technical/
+├── 📁 documentation/
 │
-├── src/
-│   ├── index.html
-│   ├── Code.gs
-│   └── appsscript.json
+├── 📁 images/
 │
-├── README.md
-└── LICENSE
+├── 📁 source/
+│
+└── 📄 README.md
+```
 
+### Folder Description
 
-
-
+| Folder | Description |
+|----------|-------------|
+| **assets/** | Stores the visual identity of the project, including banners, logos, icons, and screenshots used throughout the documentation. |
+| **documentation/** | Contains the project's technical documentation, user manuals, installation guides, and supporting materials. |
+| **images/** | Includes additional images and resources referenced by the repository. |
+| **source/** | Contains the application source code, including the frontend, Google Apps Script backend, and project configuration files. |
+| **README.md** | Main project documentation providing an overview of the platform, architecture, features, and usage instructions. |
 
 
 
