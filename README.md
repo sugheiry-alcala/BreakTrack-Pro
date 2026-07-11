@@ -349,6 +349,86 @@ This validation protects data integrity and guarantees that every registered bre
     <img src="assets/screenshots/invalid-id.png" alt="Invalid Employee Validation" width="850">
 </p>
 
+## 🚀 Platform Experience
+
+### 👤 Employee Journey
+- Home Screen
+- Employee Validation
+- Invalid Employee
+- Active Break Validation
+- Break Completion
+- Break Completion with Tolerance
+
+### 👨‍💼 Supervisor Journey
+- Administrator Access
+- Loading Statistics
+- Operations Summary
+- Operations Dashboard
+
+### 📊 Operational Management
+- Employee Database
+- Break History
+- Performance Ranking
+
+
+### ⚠️ Active Break Validation
+
+BreakTrack Pro automatically prevents employees from registering multiple active breaks.
+
+Before creating a new break record, the platform verifies whether an unfinished break already exists. If an active break is detected, the request is rejected and the employee receives immediate feedback.
+
+This validation enforces business rules, prevents duplicate records, and preserves the consistency of operational data.
+
+<p align="center">
+    <img src="assets/screenshots/duplicate-break.png" alt="Active Break Validation" width="850">
+</p>
+
+### ✅ Successful Break Completion
+
+When an employee returns from their break, BreakTrack Pro automatically records the end time and processes the operation without requiring any manual calculations.
+
+The platform immediately calculates the total break duration, evaluates compliance according to predefined business rules, and confirms the successful registration.
+
+Providing instant feedback helps employees verify that their break has been correctly recorded.
+
+<p align="center">
+    <img src="assets/screenshots/break-completed.png" alt="Successful Break Completion" width="850">
+</p>
+
+### 🟡 Automatic Compliance Classification
+
+After every completed break, the platform automatically classifies the result according to the configured business rules.
+
+BreakTrack Pro evaluates the elapsed time and assigns one of three compliance levels:
+
+- 🟢 Compliant
+- 🟡 Tolerance
+- 🔴 Exceeded
+
+This automatic classification provides immediate operational feedback while supplying supervisors with reliable performance indicators for ongoing monitoring.
+
+<p align="center">
+    <img src="assets/screenshots/tolerance-break.png" alt="Automatic Compliance Classification" width="850">
+</p>
+
+Administrator Login
+
+↓
+
+Operations Summary
+
+↓
+
+Operations Dashboard
+
+↓
+
+Historical Records
+
+↓
+
+Performance Ranking
+
 
 
 ## 👩‍💻 About the Developer
