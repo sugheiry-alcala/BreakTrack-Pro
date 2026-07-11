@@ -315,7 +315,39 @@ The Break History stores every registered operation, creating a complete audit t
 
 > *(Insert break history screenshot here)*
 
+# 🚀 Platform Experience
 
+BreakTrack Pro has been designed around two primary user experiences:
+
+- **Employees**, who register and complete their daily breaks through a fast and intuitive workflow.
+- **Supervisors**, who monitor operational performance using real-time dashboards, historical records, and automated performance indicators.
+
+The following walkthrough illustrates the platform from both perspectives.
+
+## 👤 Employee Journey
+
+### 🏠 Home Screen
+
+The Home Screen is the primary entry point of BreakTrack Pro.
+
+Employees can quickly identify themselves using their employee ID, verify their assigned information, and register the start or end of a break through a simple and intuitive interface designed for everyday operational use.
+
+<p align="center">
+    <img src="assets/screenshots/home.png" alt="BreakTrack Pro Home Screen" width="850">
+</p>
+
+
+### 🔍 Employee Validation
+
+Before processing any operation, BreakTrack Pro validates the employee ID against the centralized employee database.
+
+If the entered ID does not exist, the system immediately rejects the request and displays an informative validation message, preventing unauthorized or incorrect records from being created.
+
+This validation protects data integrity and guarantees that every registered break belongs to a valid employee.
+
+<p align="center">
+    <img src="assets/screenshots/invalid-id.png" alt="Invalid Employee Validation" width="850">
+</p>
 
 
 
