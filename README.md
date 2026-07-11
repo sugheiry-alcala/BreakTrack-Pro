@@ -28,7 +28,6 @@ Employee Break Management Platform
 
 ## 📖 Overview
 
-
 BreakTrack Pro is an employee break management platform designed to digitize, automate, and simplify the operational control of employee breaks.
 
 The platform was created to replace manual tracking processes with a centralized digital workflow that improves operational visibility, ensures consistent application of business rules, and provides real-time information for supervisors and operational leaders.
@@ -40,6 +39,7 @@ In addition to daily break registration, BreakTrack Pro provides operational das
 This repository presents the public demonstration version of the platform, preserving the architecture, workflow, and core functionality of the original operational solution while omitting organization-specific information.
 
 ---
+
 ## 🎯 The Challenge
 
 In many retail environments, employee break management is often handled through manual processes, making it difficult to monitor break durations, enforce company policies, and maintain accurate operational records.
@@ -49,6 +49,7 @@ Without a centralized system, supervisors face limited visibility into active br
 BreakTrack Pro was created to address these challenges by replacing manual tracking with a structured digital workflow that automates break registration, enforces business rules, and provides real-time operational insights through centralized reporting and performance indicators.
 
 ---
+
 ## 💡 The Solution
 
 BreakTrack Pro transforms employee break management into a structured, automated, and traceable process by combining an intuitive web interface with centralized business logic and real-time operational reporting.
@@ -60,7 +61,6 @@ As each break is completed, the platform calculates its duration, classifies the
 Through integrated dashboards, historical records, and automated rankings, supervisors gain immediate visibility into daily operations, allowing them to monitor compliance, identify exceptions, and support operational decision-making with reliable, real-time information.
 
 ---
-
 
 ## ✨ Key Features
 
@@ -112,6 +112,7 @@ Through integrated dashboards, historical records, and automated rankings, super
 - Manage system configuration.
 
 ---
+
 ## 🏗️ Architecture
 
 BreakTrack Pro follows a lightweight multi-layer architecture that separates the user interface, business logic, and data management into independent components.
@@ -146,9 +147,7 @@ The presentation layer provides an intuitive interface for employees to register
 
 Business logic is handled by Google Apps Script, where all operational rules are executed, including employee validation, duplicate prevention, break status verification, duration calculation, compliance classification, statistics generation, and automatic ranking updates.
 
-Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
----
-
+## Google Sheets acts as the centralized data repository, storing employee information, operational logs, dashboard metrics, ranking data, and system configuration, enabling real-time monitoring without requiring a traditional database server.
 
 ## 🌍 Behind the Project
 
@@ -158,8 +157,8 @@ The original implementation was created to replace manual break tracking with a 
 
 This repository preserves the architecture, workflow, and core functionality of the original solution while intentionally omitting organization-specific information. Its purpose is to showcase the technical design, development approach, and problem-solving process behind the platform.
 
-Beyond the technologies used, BreakTrack Pro reflects a software engineering mindset focused on understanding operational needs, designing practical solutions, and building systems that create measurable value through automation and data-driven decision-making.
----
+## Beyond the technologies used, BreakTrack Pro reflects a software engineering mindset focused on understanding operational needs, designing practical solutions, and building systems that create measurable value through automation and data-driven decision-making.
+
 ## 🚀 Beyond the Code
 
 BreakTrack Pro is more than a software demonstration.
@@ -174,13 +173,13 @@ The public version shared in this repository is intended to demonstrate not only
 
 BreakTrack Pro was built using technologies that provide rapid development, seamless integration with Google Workspace, and a lightweight deployment model suitable for operational environments.
 
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Structures the user interface and application layout. |
-| **CSS3** | Provides responsive styling and a clean, intuitive user experience. |
-| **JavaScript (ES6)** | Handles client-side interactions, user events, and communication with the backend. |
-| **Google Apps Script** | Implements the business logic, validations, operational rules, and server-side processing. |
-| **Google Sheets** | Acts as the centralized data repository for employee information, operational logs, dashboards, rankings, and system configuration. |
+| Technology             | Purpose                                                                                                                             |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **HTML5**              | Structures the user interface and application layout.                                                                               |
+| **CSS3**               | Provides responsive styling and a clean, intuitive user experience.                                                                 |
+| **JavaScript (ES6)**   | Handles client-side interactions, user events, and communication with the backend.                                                  |
+| **Google Apps Script** | Implements the business logic, validations, operational rules, and server-side processing.                                          |
+| **Google Sheets**      | Acts as the centralized data repository for employee information, operational logs, dashboards, rankings, and system configuration. |
 
 ### Design Approach
 
@@ -274,14 +273,13 @@ BreakTrack-Pro/
 
 ### Folder Description
 
-| Folder | Description |
-|----------|-------------|
-| **assets/** | Stores the visual identity of the project, including banners, logos, icons, and screenshots used throughout the documentation. |
-| **documentation/** | Contains the project's technical documentation, user manuals, installation guides, and supporting materials. |
-| **images/** | Includes additional images and resources referenced by the repository. |
-| **source/** | Contains the application source code, including the frontend, Google Apps Script backend, and project configuration files. |
-| **README.md** | Main project documentation providing an overview of the platform, architecture, features, and usage instructions. |
-
+| Folder             | Description                                                                                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **assets/**        | Stores the visual identity of the project, including banners, logos, icons, and screenshots used throughout the documentation. |
+| **documentation/** | Contains the project's technical documentation, user manuals, installation guides, and supporting materials.                   |
+| **images/**        | Includes additional images and resources referenced by the repository.                                                         |
+| **source/**        | Contains the application source code, including the frontend, Google Apps Script backend, and project configuration files.     |
+| **README.md**      | Main project documentation providing an overview of the platform, architecture, features, and usage instructions.              |
 
 ## 📸 Screenshots
 
@@ -289,7 +287,7 @@ BreakTrack-Pro/
 
 The main interface provides a simple and intuitive workflow for employees to register their breaks. Users can identify themselves, verify their information, and record the start or end of their break in just a few steps.
 
-> *(Insert main interface screenshot here)*
+> _(Insert main interface screenshot here)_
 
 ---
 
@@ -297,7 +295,7 @@ The main interface provides a simple and intuitive workflow for employees to reg
 
 The Operations Dashboard provides supervisors with real-time operational visibility, including daily break activity, active employees on break, compliance indicators, and performance metrics.
 
-> *(Insert dashboard screenshot here)*
+> _(Insert dashboard screenshot here)_
 
 ---
 
@@ -305,7 +303,7 @@ The Operations Dashboard provides supervisors with real-time operational visibil
 
 The Performance Ranking automatically evaluates employee compliance based on completed break records, helping supervisors identify top performers and monitor operational consistency.
 
-> *(Insert ranking screenshot here)*
+> _(Insert ranking screenshot here)_
 
 ---
 
@@ -313,7 +311,7 @@ The Performance Ranking automatically evaluates employee compliance based on com
 
 The Break History stores every registered operation, creating a complete audit trail that supports operational traceability and historical analysis.
 
-> *(Insert break history screenshot here)*
+> _(Insert break history screenshot here)_
 
 # 🚀 Platform Experience
 
@@ -336,7 +334,6 @@ Employees can quickly identify themselves using their employee ID, verify their 
     <img src="assets/screenshots/home.png" alt="BreakTrack Pro Home Screen" width="850">
 </p>
 
-
 ### 🔍 Employee Validation
 
 Before processing any operation, BreakTrack Pro validates the employee ID against the centralized employee database.
@@ -352,6 +349,7 @@ This validation protects data integrity and guarantees that every registered bre
 ## 🚀 Platform Experience
 
 ### 👤 Employee Journey
+
 - Home Screen
 - Employee Validation
 - Invalid Employee
@@ -360,16 +358,17 @@ This validation protects data integrity and guarantees that every registered bre
 - Break Completion with Tolerance
 
 ### 👨‍💼 Supervisor Journey
+
 - Administrator Access
 - Loading Statistics
 - Operations Summary
 - Operations Dashboard
 
 ### 📊 Operational Management
+
 - Employee Database
 - Break History
 - Performance Ranking
-
 
 ### ⚠️ Active Break Validation
 
@@ -429,17 +428,259 @@ Historical Records
 
 Performance Ranking
 
+## 👨‍💼 Supervisor Journey
 
+BreakTrack Pro provides supervisors with dedicated operational tools to monitor employee break activity, review compliance metrics, and access historical information in real time.
 
-## 👩‍💻 About the Developer
+The administration workflow is designed to provide immediate operational visibility while maintaining a simple and intuitive user experience.
 
-Hi, I'm **Sugheiry Alcalá**, a Software Developer and Data & AI Analyst passionate about building technology that solves real-world operational challenges.
+### 🔐 Administrator Access
 
-My work combines software development, data analysis, and product thinking to create practical solutions that improve business processes and support better decision-making.
+Administrative functions are protected through a dedicated authentication step.
 
-I believe technology creates the greatest impact when it is designed around people, processes, and real business needs.
+Only authorized personnel can access operational statistics, historical records, dashboards, and performance reports, ensuring that management features remain restricted to supervisors.
 
-If you'd like to connect or learn more about my work:
+<p align="center">
+    <img src="assets/screenshots/admin-login.png" alt="Administrator Login" width="850">
+</p>
 
-- 💼 LinkedIn: ...
-- 💻 GitHub: ...
+### 📈 Real-Time Statistics
+
+After successful authentication, BreakTrack Pro automatically retrieves the latest operational data and prepares the management dashboard.
+
+This process ensures that supervisors always access up-to-date information before navigating through the platform's operational modules.
+
+<p align="center">
+    <img src="assets/screenshots/loading-statistics.png" alt="Loading Statistics" width="850">
+</p>
+### 📊 Operational Snapshot
+
+The Operations Summary provides supervisors with an instant overview of the current operational status.
+
+Key performance indicators, active breaks, compliance levels, and recent activity are consolidated into a single view, allowing managers to quickly identify situations that require attention.
+
+<p align="center">
+    <img src="assets/screenshots/operations-summary.png" alt="Operations Summary" width="850">
+</p>
+
+## 👨‍💼 Supervisor Journey
+
+BreakTrack Pro provides supervisors with dedicated operational tools to monitor employee break activity, review compliance metrics, and access historical information in real time.
+
+The administration workflow has been designed to provide immediate operational visibility while maintaining a simple and intuitive user experience.
+
+### 🔐 Administrator Access
+
+Administrative features are protected through a dedicated authentication step.
+
+Only authorized personnel can access operational statistics, dashboards, historical records, and performance reports, ensuring that management functions remain restricted to supervisors.
+
+<p align="center">
+    <img src="assets/screenshots/admin-login.png" alt="Administrator Login" width="850">
+</p>
+
+### 📈 Real-Time Statistics
+
+Once authentication is completed, BreakTrack Pro retrieves the latest operational data and prepares the administration panel.
+
+This process guarantees that supervisors always work with up-to-date information before accessing the available management modules.
+
+<p align="center">
+    <img src="assets/screenshots/loading-statistics.png" alt="Loading Statistics" width="850">
+</p>
+
+### 📊 Operational Snapshot
+
+The administration panel presents a real-time overview of daily break activity.
+
+Supervisors can instantly monitor registered breaks, employees currently on break, compliance levels, tolerance cases, exceeded limits, and the latest recorded activity.
+
+By consolidating operational metrics into a single view, the platform enables faster decision-making and proactive supervision.
+
+<p align="center">
+    <img src="assets/screenshots/operations-summary.png" alt="Operations Summary" width="850">
+</p>
+## 📊 Operational Management
+
+### 📈 Operations Dashboard
+
+The Operations Dashboard consolidates key performance indicators into a centralized view that supports operational monitoring.
+
+Supervisors can evaluate daily compliance, active breaks, employee performance, and operational trends through automatically updated metrics and visual indicators.
+
+<p align="center">
+    <img src="assets/screenshots/dashboard.png" alt="Operations Dashboard" width="900">
+</p>
+
+### 👥 Employee Database
+
+The Employee Database serves as the master data repository for the platform.
+
+It stores employee identification, names, assigned brands, and store information used throughout the validation and break registration process.
+
+Maintaining a centralized employee directory ensures data consistency across all operational modules.
+
+<p align="center">
+    <img src="assets/screenshots/employee-database.png" alt="Employee Database" width="900">
+</p>
+### 📋 Break History
+
+Every completed operation is automatically stored in the historical log, providing complete traceability of employee break activity.
+
+Each record includes timestamps, calculated duration, compliance status, and employee information, supporting audits, operational analysis, and historical reporting.
+
+<p align="center">
+    <img src="assets/screenshots/break-history.png" alt="Break History" width="900">
+</p>
+### 🏆 Performance Ranking
+
+The Performance Ranking automatically evaluates employee compliance based on completed break records.
+
+Using operational indicators such as compliant breaks, tolerance cases, exceeded limits, and compliance percentage, supervisors can easily identify performance trends and support continuous operational improvement.
+
+<p align="center">
+    <img src="assets/screenshots/performance-ranking.png" alt="Performance Ranking" width="900">
+</p>
+
+# 🚀 Getting Started
+
+This repository contains the public demonstration version of **BreakTrack Pro**, preserving the architecture, workflow, and core functionality of the original operational solution.
+
+## Prerequisites
+
+Before deploying the application, make sure you have access to:
+
+- A Google Account
+- Google Sheets
+- Google Apps Script
+- A modern web browser
+
+---
+
+## Project Setup
+
+1. Create a new Google Spreadsheet.
+
+2. Open **Extensions → Apps Script**.
+
+3. Copy the project source files into the Apps Script editor.
+
+4. Create the required worksheets:
+
+- `EMPLOYEE_DATABASE`
+- `BREAK_LOGS`
+- `DASHBOARD`
+- `PERFORMANCE_RANKING`
+- `CONFIGURATION`
+
+5. Deploy the project as a **Web App**.
+
+6. Grant the required Google Apps Script permissions.
+
+7. Open the generated Web App URL to start using BreakTrack Pro.
+
+---
+
+## Configuration
+
+Before using the application, populate the employee database with the required information:
+
+- Employee ID
+- Employee Name
+- Brand
+- Store
+
+Once configured, employees can immediately begin registering their breaks.
+
+# 🚀 Getting Started
+
+This repository contains the public demonstration version of **BreakTrack Pro**, preserving the architecture, workflow, and core functionality of the original operational solution.
+
+## Prerequisites
+
+Before deploying the application, make sure you have access to:
+
+- A Google Account
+- Google Sheets
+- Google Apps Script
+- A modern web browser
+
+---
+
+## Project Setup
+
+1. Create a new Google Spreadsheet.
+
+2. Open **Extensions → Apps Script**.
+
+3. Copy the project source files into the Apps Script editor.
+
+4. Create the required worksheets:
+
+- `EMPLOYEE_DATABASE`
+- `BREAK_LOGS`
+- `DASHBOARD`
+- `PERFORMANCE_RANKING`
+- `CONFIGURATION`
+
+5. Deploy the project as a **Web App**.
+
+6. Grant the required Google Apps Script permissions.
+
+7. Open the generated Web App URL to start using BreakTrack Pro.
+
+---
+
+## Configuration
+
+Before using the application, populate the employee database with the required information:
+
+- Employee ID
+- Employee Name
+- Brand
+- Store
+
+Once configured, employees can immediately begin registering their breaks.
+
+# 🌍 Behind the Project
+
+BreakTrack Pro represents the public demonstration version of a solution originally developed to address a real operational challenge in employee break management.
+
+The project was inspired by the need to replace manual break tracking with a centralized digital workflow capable of improving operational visibility, automating business rules, and providing reliable real-time information for supervisors.
+
+This public repository preserves the architecture, workflow, and core functionality of the original solution while intentionally excluding organization-specific information.
+
+More than demonstrating a technical implementation, BreakTrack Pro showcases a practical software engineering approach focused on understanding business needs, designing effective solutions, and creating measurable operational value through automation and data-driven decision-making.
+
+# 👩‍💻 About the Developer
+
+Hi, I'm **Sugheiry Alcala**.
+
+I'm a **Software Developer** and **Data & AI Analyst** passionate about building technology that solves real-world operational challenges.
+
+My professional interests combine software development, data analysis, artificial intelligence, and product thinking to create practical solutions that improve business processes and support better decision-making.
+
+I enjoy transforming operational needs into digital products that are intuitive, reliable, and focused on delivering measurable value.
+
+## Let's Connect
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/sugheiry-alcala/
+- 💻 **GitHub:** https://github.com/sugheiry-alcala
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+Feel free to explore, learn from, and adapt the code for educational and personal purposes.
+
+See the LICENSE file for more information.
+
+---
+
+<p align="center">
+
+**Transforming operational challenges into practical software solutions.**
+
+Built with ❤️ by **Sugheiry Alcala**
+
+</p>
