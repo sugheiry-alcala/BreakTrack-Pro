@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+  <head>
+    t
+    <base target="_top" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #111827;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: white;
+      }
+
+      .card {
+        width: 450px;
+        background: #1f2937;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      }
+
+      h1 {
+        text-align: center;
+        color: #3b82f6;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 25px;
+        color: #d1d5db;
+      }
+
+      input {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      .card button {
+        width: 100%;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+
+      .buscar {
+        background: #2563eb;
+        color: white;
+      }
+
+      .inicio {
+        background: #2563eb;
+        color: white;
+      }
+
+      .fin {
+        background: #16a34a;
+        color: white;
+      }
+
+      .admin {
+        background: #6b7280;
+        color: white;
+      }
+
+      .info {
+        margin-top: 20px;
+        line-height: 2;
+      }
+
+      .info strong {
+        color: #facc15;
+      }
+
+      .valor {
+        color: white;
+        font-weight: bold;
+      }
+
+      .version {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #9ca3af;
+      }
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      .modalContenido {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      .panelAdminContenido {
+        background: #1f2937;
+        width: 380px;
+        padding: 25px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+      }
+
+      .panelAdminContenido h2 {
+        color: #3b82f6;
+        margin-bottom: 20px;
+        font-size: 28px;
+      }
+
+      .btnPanel {
+        width: 90%;
+        height: 50%;
+        margin: 8px auto;
+        display: block;
+        background: #2563eb;
+        color: white;
+        font-size: 16px;
+        border-radius: 10px;
+      }
+
+      .btnCerrar {
+        width: 90%;
+        height: 50px;
+        margin: 15px auto 0 auto;
+        display: block;
+        background: #dc2626;
+        color: white;
+        font-size: 16px;
+        border-radius: 10px;
+      }
+
+      .modalContenido h2 {
+        color: #3b82f6;
+        margin-bottom: 15px;
+      }
+
+      .modalContenido button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>BREAKTRACK PRO</h1>
+      <h2>Employee Break Management System</h2>
+      <input
+        type="text"
+        id="cedula"
+        placeholder="Digite su cédula"
+        onkeypress="
+          if (event.key === 'Enter') {
+            buscarCedula();
+          }
+        "
+      />
+
+      <button class="buscar" onclick="buscarCedula()">🔍 BUSCAR</button>
+
+      <div class="info">
+        <strong>Nombre:</strong>
+        <span id="nombre" class="valor"></span>
+        <br />
+        <strong>Marca:</strong>
+        <span id="marca" class="valor"></span>
+        <br />
+        <strong>Tienda:</strong>
+        <span id="tienda" class="valor"></span>
+      </div>
+      <button class="inicio" onclick="inicioBreak()">🔵 INICIO BREAK</button>
+
+      <button class="fin" onclick="finBreak()">🟢 FIN BREAK</button>
+
+      <button class="admin" onclick="admin()">🔒 ADMINISTRADOR</button>
+
+      <div class="version">BreakTrack Pro v1.0.1</div>
+    </div>
+    <script>
+      function buscarCedula() {
+        const cedula = document.getElementById("cedula").value;
+        google.script.run
+          .withSuccessHandler(function (respuesta) {
+            if (respuesta.encontrado) {
+              document.getElementById("nombre").innerText = respuesta.nombre;
+              document.getElementById("marca").innerText = respuesta.marca;
+              document.getElementById("tienda").innerText = respuesta.tienda;
+            } else {
+              alert("CÉDULA NO VÁLIDA");
+            }
+          })
+          .buscarPromotor(cedula);
+      }
+      function inicioBreak() {
+        const cedula = document.getElementById("cedula").value;
+        if (!cedula) {
+          alert("Ingrese una cédula");
+          return;
+        }
+        google.script.run
+          .withSuccessHandler(function (mensaje) {
+            alert(mensaje);
+            document.getElementById("cedula").value = "";
+            document.getElementById("nombre").innerText = "";
+            document.getElementById("marca").innerText = "";
+            document.getElementById("tienda").innerText = "";
+            document.getElementById("cedula").focus();
+          })
+          .registrarInicioBreak(cedula);
+      }
+      function finBreak() {
+        const cedula = document.getElementById("cedula").value;
+        if (!cedula) {
+          alert("Ingrese una cédula");
+          return;
+        }
+        google.script.run
+          .withSuccessHandler(function (mensaje) {
+            alert(mensaje);
+            document.getElementById("cedula").value = "";
+            document.getElementById("nombre").innerText = "";
+            document.getElementById("marca").innerText = "";
+            document.getElementById("tienda").innerText = "";
+            document.getElementById("cedula").focus();
+          })
+          .registrarFinBreak(cedula);
+      }
+      function mostrarModal(titulo, texto) {
+        document.getElementById("tituloModal").innerText = titulo;
+        document.getElementById("textoModal").innerText = texto;
+        document.getElementById("modalMensaje").style.display = "flex";
+      }
+      function cerrarModal() {
+        document.getElementById("modalMensaje").style.display = "none";
+      }
+      function admin() {
+        const clave = prompt("Ingrese contraseña");
+        if (clave === "4460") {
+          mostrarPanelAdmin();
+        } else {
+          alert("Contraseña incorrecta");
+        }
+      }
+      function mostrarPanelAdmin() {
+        document.getElementById("panelAdmin").style.display = "flex";
+        google.script.run
+          .withSuccessHandler(function (datos) {
+            document.getElementById("estadisticasAdmin").innerHTML =
+              "☕ Breaks Hoy: " +
+              datos.breaksHoy +
+              "<br>👥 Activos en Break: " +
+              datos.activos +
+              "<br>🟢 Cumplen: " +
+              datos.cumple +
+              "<br>🟡 Tolerancia: " +
+              datos.tolerancia +
+              "<br>🔴 Excedidos: " +
+              datos.excedido +
+              "<hr>" +
+              "<br><br>📊 Cumplimiento: " +
+              datos.porcentaje +
+              "%" +
+              "<hr>" +
+              "<div style='margin-top:10px'>" +
+              "<b>🚨 TOLERANCIA</b><br>" +
+              (datos.listaTolerancia || "Sin Novedades") +
+              "<hr>" +
+              "<b>🚨 EXCEDIDOS</b><br>" +
+              (datos.listaExcedidos || "Sin Novedades") +
+              "<hr>" +
+              "<b>📋 Último Registro:</b><br>" +
+              datos.ultimoRegistro;
+          })
+          .obtenerEstadisticas();
+      }
+      function cerrarPanelAdmin() {
+        document.getElementById("panelAdmin").style.display = "none";
+      }
+      function abrirDashboard() {
+        window.open(
+          "https://docs.google.com/spreadsheets/d/1QDO_OtoRzSXeYzgJ3BNTgmsWaVjbJSykAWLyL3dsFo4/edit?gid=643215077#gid=643215077",
+          "_blank",
+        );
+        cerrarPanelAdmin();
+      }
+      function abrirLog() {
+        window.open(
+          "https://docs.google.com/spreadsheets/d/1QDO_OtoRzSXeYzgJ3BNTgmsWaVjbJSykAWLyL3dsFo4/edit?gid=881499529#gid=881499529",
+          "_blank",
+        );
+        cerrarPanelAdmin();
+      }
+      function abrirRanking() {
+        window.open(
+          "https://docs.google.com/spreadsheets/d/1QDO_OtoRzSXeYzgJ3BNTgmsWaVjbJSykAWLyL3dsFo4/edit?gid=825446546#gid=825446546",
+          "_blank",
+        );
+        cerrarPanelAdmin();
+      }
+      window.onload = function () {
+        document.getElementById("cedula").focus();
+      };
+    </script>
+    <div id="panelAdmin" class="modal">
+      <div class="panelAdminContenido">
+        <h2>🔧 📊 OPERATIONS DASHBOARD</h2>
+        <div id="estadisticasAdmin">cargando estadísticas...</div>
+        <button class="btnPanel" onclick="abrirDashboard()">
+          📊 DASHBOARD
+        </button>
+        <button class="btnPanel" onclick="abrirLog()">
+          📋 REGISTRO BREAKS
+        </button>
+        <button class="btnPanel" onclick="abrirRanking()">
+          🏆 RANKING ASESORES
+        </button>
+        <button class="btnCerrar" onclick="cerrarPanelAdmin()">
+          ❌ CERRAR
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
